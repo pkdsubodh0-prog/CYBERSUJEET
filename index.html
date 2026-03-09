@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujeet Cyber Cafe Digital Seva</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-globe-asia logo-icon"></i>
+                <div class="logo-text">
+                    <h1>Sujeet Cyber Cafe</h1>
+                    <span>Digital Seva</span>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="#services" class="nav-link">Our Services</a>
+                <a href="#contact" class="nav-link">Contact Us</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">Welcome to Premium Digital Services</div>
+            <h1 class="hero-title">One Stop Solution For All Your <span class="highlight">Digital Needs</span></h1>
+            <p class="hero-subtitle">Fast, Reliable, and Secure Online Services. Apply for certificates, PAN cards, tickets, jobs, and much more from the comfort of our cafe or directly via WhatsApp.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">
+                    <span>Explore Services</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Find Us</span>
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="glass-card hero-stats">
+                <div class="stat-item">
+                    <i class="fas fa-users color-1"></i>
+                    <h3>Happy Customers</h3>
+                    <p>Daily Updates</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-check-circle color-2"></i>
+                    <h3>100+</h3>
+                    <p>Services</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-bolt color-3"></i>
+                    <h3>Fast</h3>
+                    <p>Processing</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fab fa-whatsapp color-4"></i>
+                    <h3>WhatsApp</h3>
+                    <p>Apply Direct</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="section-header">
+            <h2>Our <span class="highlight">Services</span></h2>
+            <p>Browse our wide range of services and apply instantly via WhatsApp</p>
+        </div>
+        
+        <!-- Category Filter -->
+        <div class="category-filter" id="categoryFilter">
+            <!-- Dynamically populated categories -->
+        </div>
+
+        <!-- Services Container -->
+        <div class="services-container" id="servicesContainer">
+            <!-- Dynamically populated services grouping -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="glass-container contact-wrapper">
+            <div class="contact-info">
+                <h2>Visit <span class="highlight">Us</span></h2>
+                <p>We are here to assist you with all your digital and online works.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h3>Address</h3>
+                            <p>Pakaridayal, East Champaran, Bihar</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>subodhkumarpkd@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-cta">
+                <div class="whatsapp-card glass-card">
+                    <div class="wa-icon-large">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>Need Any Other Help?</h3>
+                    <p>Send us a general message on WhatsApp. We typically reply in a few minutes!</p>
+                    <a href="https://wa.me/919471892125?text=Hello%20Sujeet%20Cyber%20Cafe,%20I%20have%20an%20inquiry..." target="_blank" class="btn btn-whatsapp w-100">
+                        <i class="fab fa-whatsapp"></i> Message Us Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-globe-asia"></i> Sujeet Cyber Cafe Digital Seva
+            </div>
+            <p class="copyright">&copy; <span id="year"></span> Sujeet Cyber Cafe Digital Seva. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
